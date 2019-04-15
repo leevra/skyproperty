@@ -1,0 +1,42 @@
+<header class="site-header">
+
+  <div class="wrapper">
+
+    <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+    
+	<h4 class="site-meta">{{ site.tagline }}</h4>
+	
+	
+    <nav class="site-nav">
+
+      
+      
+          
+<a href="/seminar" target="_self"><strong><span style="color: rgb(0, 0, 0);">농사 수익, 1년 만에 2배 만드는 법</span></strong></a> 
+
+<a href="/notice" target="_self"><strong><span style="color: rgb(0, 0, 0);">｜ 직업적성검사</span></strong></a> 
+        
+      
+      
+        
+        
+        
+        {% for page in site.pages %}
+        {% if page.title %}
+        
+           
+        
+        
+
+        
+        
+       
+          
+        {% endif %}      
+        {% endfor %}
+    
+    </nav>
+
+  </div>
+
+</header>
